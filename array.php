@@ -28,7 +28,7 @@ $id = $message->from->id;
 $array = array(0,0,0,0);
 $count = count($array);
 
-if($text and in_array($id,$aarray){
+if($text and in_array($id,$aarray)){
 bot('sendMessage',[
 'chat_id'=>$chat_id,
 'text'=>"You Are Sudo " . $count,
